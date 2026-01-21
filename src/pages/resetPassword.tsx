@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function ResetPassword() {
   const token = new URLSearchParams(window.location.search).get("token");
